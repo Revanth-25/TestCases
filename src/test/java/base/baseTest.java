@@ -24,8 +24,9 @@ public class baseTest {
        public void setUp() throws IOException {
 
 	                opt.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true); 
+	       
     			WebDriverManager.chromedriver().setup();  //base
-    			driver = new ChromeDriver(); 
+    			driver = new ChromeDriver(opt); 
     			driver.get("https://localhost:44340/Orders/Create");
     	   
        }
