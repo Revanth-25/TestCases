@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-24T14:24:16 IST" name="WebApp Suite" finished-at="2023-08-24T14:24:44 IST" duration-ms="28410">
+    <groups>
+    </groups>
+    <test started-at="2023-08-24T14:24:16 IST" name="WebApp Test" finished-at="2023-08-24T14:24:44 IST" duration-ms="28410">
+      <class name="testcases.TestButtons">
+        <test-method signature="testButton()[pri:0, instance:testcases.TestButtons@6c64cb25]" started-at="2023-08-24T14:24:34 IST" name="testButton" finished-at="2023-08-24T14:24:44 IST" duration-ms="9645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testButton -->
+      </class> <!-- testcases.TestButtons -->
+      <class name="testcases.HandleOrderNumber">
+        <test-method signature="ONtest()[pri:0, instance:testcases.HandleOrderNumber@245b4bdc]" started-at="2023-08-24T14:24:26 IST" name="ONtest" finished-at="2023-08-24T14:24:34 IST" duration-ms="8126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ONtest -->
+      </class> <!-- testcases.HandleOrderNumber -->
+      <class name="testcases.HandleName">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.HandleName@5b239d7d]" started-at="2023-08-24T14:24:16 IST" name="setUp" finished-at="2023-08-24T14:24:19 IST" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="nameTest()[pri:0, instance:testcases.HandleName@5b239d7d]" started-at="2023-08-24T14:24:19 IST" name="nameTest" finished-at="2023-08-24T14:24:26 IST" duration-ms="7215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HandleName@5b239d7d]" started-at="2023-08-24T14:24:44 IST" name="tearDown" finished-at="2023-08-24T14:24:44 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HandleName -->
+    </test> <!-- WebApp Test -->
+  </suite> <!-- WebApp Suite -->
+</testng-results>
