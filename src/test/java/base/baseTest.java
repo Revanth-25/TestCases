@@ -3,6 +3,7 @@ package base;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -23,6 +24,7 @@ public class baseTest {
     			WebDriverManager.chromedriver().setup();  //base
     			driver = new ChromeDriver(); 
     			driver.get("https://localhost:44340/Orders/Create");
+	                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     	   
        }
 	    @AfterTest
