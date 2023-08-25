@@ -5,6 +5,13 @@
 	<groupId>com.webApp</groupId>
 	<artifactId>TeatAutomationWebApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<distributionManagement>
+       <repository>
+         <id>WebApp.rep</id>
+         <name>WebApp repo</name>
+         <url>https://localhost:44340/Orders/Create</url>
+       </repository>
+   </distributionManagement>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
               <dependency>
