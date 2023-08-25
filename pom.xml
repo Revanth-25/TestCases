@@ -7,9 +7,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<distributionManagement>
        <repository>
-         <id>WebApp.rep</id>
+         <id>internal.repo</id>
          <name>WebApp repo</name>
-         <url>C:\Users\revan\Deployment</url>
+         <url>C:\Users\revan\.m2\repository</url>
        </repository>
    </distributionManagement>
 	<dependencies>
