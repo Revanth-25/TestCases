@@ -9,7 +9,7 @@
        <repository>
          <id>WebApp.rep</id>
          <name>WebApp repo</name>
-         <url>https://localhost:44340/Orders/Create</url>
+         <url>C:\Users\revan\Deployment</url>
        </repository>
    </distributionManagement>
 	<dependencies>
