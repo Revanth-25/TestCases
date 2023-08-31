@@ -15,11 +15,6 @@ pipeline{
                                        echo 'Tests Done'
                                      }
                                }
-                stage('Deploy'){
-                                steps{
-                                      bat "mvn deploy -f TestCases"
-                                      echo 'Deploy done'
-                                     }
-                                }
+
                   }
         }
