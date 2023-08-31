@@ -6,6 +6,7 @@
       <class name="testcases.HandleName"/>
       <class name="testcases.HandleOrderNumber"/>
       <class name="testcases.TestButtons"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
